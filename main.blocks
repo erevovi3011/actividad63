@@ -1,4 +1,7 @@
-<xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="pxt-on-start"></block>
-  <block type="device_forever"></block>
-</xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="d?6l.WU$B4,k+XGWD}jo">lista</variable><variable id="K`e#a|}/BGo1=27Dw3(i">b</variable></variables><block type="pxt-on-start" id="$:z}bH6(B!*K9k@Cv3Y$" x="20" y="20"></block><block type="device_forever" id=",u]^{e(PF{/PpvTd^xe9" x="225" y="20"><statement name="HANDLER"><block type="variables_set" id="s-]~T9CfbqjVt1L)xUA|"><field name="VAR" id="K`e#a|}/BGo1=27Dw3(i">b</field><value name="VALUE"><block type="math_arithmetic" id="5DD(?;@O?`xoY@([0${?"><field name="OP">MINUS</field><value name="A"><shadow type="math_number" id="GpYxKVV}Q*)qYOrRxO]:"><field name="NUM">255</field></shadow></value><value name="B"><shadow type="math_number" id="sbeY?(Q:4jkW85`7uisH"><field name="NUM">0</field></shadow><block type="device_get_light_level" id="]oAg75;%W_9qL2AQEX`y"></block></value></block></value><next><block type="device_set_brightness" id="{A/O3dmq:g$MIK_.#UxF"><value name="value"><shadow type="math_number_minmax" id="GgiE_/2c83c^,K_M@C@#"><mutation min="0" max="255" label="Value" precision="0"></mutation><field name="SLIDER">255</field></shadow><block type="variables_get" id="-C[hspe^!PVQv}4:OY=["><field name="VAR" id="K`e#a|}/BGo1=27Dw3(i">b</field></block></value><next><block type="device_show_leds" id="020]wc5d92)!L6a/OqS8"><field name="LEDS">`
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # #
+        `</field></block></next></block></next></block></statement></block><block type="lists_create_with" id="QBsD*9!-2GN8u}J-OWFH" disabled="true" x="682" y="143"><mutation items="2" horizontalafter="3"></mutation><value name="ADD0"><shadow type="math_number" id="Y+aRFl:n~X[SN`Ine*Ua" disabled="true"><field name="NUM">0</field></shadow></value><value name="ADD1"><shadow type="math_number" id="N!~#OA?:z90E2DNO=w{q" disabled="true"><field name="NUM">1</field></shadow></value></block><block type="lists_length" id="o}:-BADXw[]DM1I#Adax" disabled="true" x="136" y="387"></block></xml>
